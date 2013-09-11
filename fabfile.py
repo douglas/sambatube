@@ -12,6 +12,7 @@ def prepare_assets():
     local("cp -R assets/bootstrap/dist/* static/")
     local("cp -R assets/jquery/jquery.min.js static/js")
     local("cp -R assets/jquery/jquery.min.map static/js")
+    local("cp -R assets/speakingurl/speakingurl.min.js static/js")
     local("rm -rf assets")
 
 

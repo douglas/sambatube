@@ -8,6 +8,7 @@
     ],
     "dependencies": {
         "jquery": "latest",
-        "bootstrap": "latest"
+        "bootstrap": "latest",
+        "speakingurl": "latest"
     }
 }

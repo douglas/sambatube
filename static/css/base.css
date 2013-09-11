@@ -16,3 +16,16 @@ body {
   height: auto !important;
   margin: 0 auto -60px;
   padding: 0 0 60px; }
+
+.container .progress {
+  min-height: 30px;
+  padding: 0; }
+
+.container p {
+  width: auto;
+  position: fixed;
+  font-size: 16px;
+  color: white;
+  padding-left: 20px;
+  padding-top: 3px;
+  float: left; }

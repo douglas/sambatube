@@ -1,5 +1,7 @@
 # SambaTube
 
+[![Build Status](https://travis-ci.org/douglas/sambatube.png?branch=master)](https://travis-ci.org/douglas/sambatube)
+
 ## Apresentação
 
 Projeto em Python e Flask para testes de utilização de
@@ -9,6 +11,10 @@ de videos.
 ## Endereço de Teste
 
 [SambaTube](http://sambatube.heroku.com "SambaTube")
+
+## Integração Contínua
+
+[Travis / SambaTube](https://travis-ci.org/douglas/sambatube "Travis / SambaTube")
 
 ## Tecnologias Utilizadas
 

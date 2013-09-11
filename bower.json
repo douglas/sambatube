@@ -1,0 +1,13 @@
+{
+    "name": "{{ sambatube }}",
+    "version": "0.1.0",
+    "ignore": [
+        "**/.*",
+        "components",
+        "assets"
+    ],
+    "dependencies": {
+        "jquery": "latest",
+        "bootstrap": "latest"
+    }
+}

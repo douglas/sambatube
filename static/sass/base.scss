@@ -1,0 +1,24 @@
+/* Definicoes */
+@import "colors";
+
+html,
+body {
+  height: 100%;
+}
+
+.navbar {
+    margin-bottom: 0px;
+}
+
+/* Barra de navegacao */
+.navbar-static-top {
+    background-color: $samba_blue;
+}
+
+/* Sticky footer styles */
+#wrap {
+    min-height: 100%;
+    height: auto !important;
+    margin: 0 auto -60px;
+    padding: 0 0 60px;
+}

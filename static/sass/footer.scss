@@ -1,0 +1,13 @@
+/* Definicoes */
+@import "colors";
+
+/* Rodape fixo */
+
+.copyright {
+    min-width: 100%;
+    padding: 2px 0px;
+    height: 60px;
+    background-color: $samba_blue;
+    padding-top: 10px;
+    position: relative;
+}

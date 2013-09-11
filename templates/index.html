@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="">
+        <meta name="author" content="">
+
+        <title>SambaTube</title>
+
+        {% block custom_header %}{% endblock %}
+
+        <!-- Twitter bootstrap -->
+        <link href="{{ url_for('static', filename='css/bootstrap.min.css') }}" rel="stylesheet">
+
+        <!-- Estilos do tema -->
+        <link href="{{ url_for('static', filename='css/base.css') }}" rel="stylesheet">
+        <link href="{{ url_for('static', filename='css/footer.css') }}" rel="stylesheet">
+        {% block custom_css %}{% endblock %}
+
+
+          <script src="{{ url_for('static', filename='js/html5shiv.js') }}"></script>
+          <script src="{{ url_for('static', filename='js/respond.min.js') }}"></script>
+
+    </head>
+    <body>
+        <div id="wrap">
+            <div class="navbar navbar-inverse navbar-static-top"></div>
+            <div class="jumbotron">
+                <div class="container">
+                    <h1>{% block jumbotron_title %}{% endblock %}</h1>
+                </div>
+            </div>
+
+            {% block content %}
+            {% endblock %}
+        </div>
+
+        <div id="footer">
+            {% block footer %}{% endblock %}
+
+            <div class="copyright">
+            </div>
+        </div>
+
+        <!-- Bootstrap core JavaScript -->
+        <script src="{{ url_for('static', filename='js/jquery.min.js') }}"></script>
+        <script src="{{ url_for('static', filename='js/bootstrap.min.js') }}"></script>
+
+        {% block custom_js %}{% endblock %}
+    </body>
+</html>

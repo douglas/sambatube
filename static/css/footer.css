@@ -1,0 +1,9 @@
+/* Definicoes */
+/* Rodape fixo */
+.copyright {
+  min-width: 100%;
+  padding: 2px 0px;
+  height: 60px;
+  background-color: #075da8;
+  padding-top: 10px;
+  position: relative; }

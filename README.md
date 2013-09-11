@@ -4,7 +4,7 @@
 
 Projeto em Python e Flask para testes de utilização de
 plataformas de SaaS para envio, conversão e apresentação
-de arquivos com
+de videos.
 
 ## Endereço de Teste
 
